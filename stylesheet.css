@@ -1,14 +1,65 @@
 body {
     margin:0;
     background-color: white;
+    font-family: Orbitron sans-serif;
+    font-size: 1rem;
     }
 
-button {
+h1 {
+    color: #555555;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #579DD9;
+}
+
+p {
+    padding: 25px 15px;
+    line-height: 1;
+}
+
+header h1 {
+        text-align: center;
+    }
+
+.agency {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin : 0 10px;
+    padding :10px 40px;
     border: solid 1px transparent;
     background-color: #579DD9;
     color : #ffffff;
+    border-radius: 25px;
 }
 
-.map-container {
+.agency:hover {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin : 0 10px;
+    padding :10px 40px;
+    border: solid 1px #579DD9;
+    background-color: #ffffff;
+    color : #579DD9;
+    border-radius: 25px;
+}
+.agencies-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.map-container {
+    width :1140px;
+    height: 500px;
+    margin : 50px 0;
+    padding :15px;
+    background-color: #579DD9;
 }

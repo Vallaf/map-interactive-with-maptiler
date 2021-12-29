@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <title>Map interactive</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media=”screen”/>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
 </head>
 <body>
 <header>
-    <h1>"Map interactive maptiler geojson</h1>
+    <h1>Map interactive maptiler geojson</h1>
 </header>
-<div class="map-container">
+<div class="agencies-container">
     <h2>Nos agences</h2>
-    <p>"Cliquez sur la zone géographique à laquelle vous êtes rattachés pour découvrir les coordonnées et le contact de vos interlocuteurs régions."</p>
+    <p>Cliquez sur la zone géographique à laquelle vous êtes rattachés pour découvrir les coordonnées et le contact de vos interlocuteurs régions.</p>
     <div class="button-agencies-container">
         <button class="agency" id="ge-agency">Agence Grand Est</button>
         <button class="agency" id="ra-agency">Agence Rhône-Alpes</button>
         <button class="agency" id="paca-agency">Agence Paca Languedoc</button>
     </div>
+    <div class="map-container">
+        <div id="map">
+
+        </div>
+    </div>
 </div>
+<script type="text/javascript" src="map-tiler.js"></script>
+
 </body>
